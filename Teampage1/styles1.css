@@ -1,0 +1,211 @@
+.heading1{
+	position : relative;
+	width:100%;
+	height:150px;
+	clip-path:polygon(0 0, 0 60%, 50% 100%, 100% 60%, 100% 0);
+	color:white;
+	background:#060c21;
+	margin-bottom: 20px;
+}
+
+.heading{
+	filter:drop-shadow(5px 5px 5px rgba(0, 0, 255, 0.3));
+}
+
+.teampage{
+	
+	filter:drop-shadow(5px 5px 5px rgba(0, 100, 0, 1));
+}
+.tp{
+	padding-top: 35px;
+	font-size:50px;
+    font-weight: 900;
+   /*font-family: 'David Libre', serif;*/
+    font-family: 'PT Serif', serif;
+    text-shadow: 2px 2px 5px green;
+}
+.a{
+	padding-top: 30px;
+	padding-left: 60px;
+	position:relative;
+	height: 450px;
+	width:300px;
+	flex-direction: row;
+}
+
+.b{
+	position:relative;
+	color:white;
+    width:300px;
+    height: 350px;
+    
+    clip-path:polygon(0 40%,0 100%,100% 100%,100% 0);
+    z-index: -1;
+    background:#060c21;   
+}
+
+.a{
+	filter:drop-shadow(5px 5px 5px rgba(0, 0, 255, 0.3));
+}
+
+.wrap{
+	filter:drop-shadow(-3px -3px 3px rgba(0, 255, 0, 0.3));
+}
+
+.pic{
+	filter:drop-shadow(-3px -3px 3px rgba(0, 255, 0, 0.3));
+}
+
+.name{
+    font-family: 'Acme', sans-serif;
+	position:relative;
+    z-index:1;
+	color:white;
+    font-size: 22px;
+    margin:-2px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.job{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+	position:relative;
+    z-index:1;
+	color:white;
+    font-size: 19px;
+    margin:-2px;
+    margin-top: 2px;
+}
+
+.des{
+	color:white;
+	font-size: 13px;
+	font-family: 'Dosis', sans-serif;
+ }
+
+ .des1{
+ 	margin-top: -15px;
+	color:white;
+	font-size: 13px;
+	margin-bottom:7px;
+	font-family: 'Dosis', sans-serif;
+	
+ }
+
+.mail{
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;
+	color:blue;
+}
+
+.mail:hover{
+	text-decoration:underline;
+}
+.info{
+	position: absolute;
+	bottom:108px;
+	left:100px;
+	justify-content: flex;
+	align-content: center;
+}
+
+body{
+	height:100vh;
+	width:100%;
+	background-color:#060c21;
+	top:0;
+	left:0;
+	}
+
+
+.circle
+{
+	border-radius:50%;
+	width:130px;
+	height: 130px;
+	background-color: #73AD21;
+	position: absolute;
+	top:10px;
+	left:87px;
+	z-index: 1;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 35px;
+    width: 23px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px 18px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    box-shadow: 5px 5px 5px(rgba(0, 0, 255, 0.3)); 
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #cb2027;
+    color: white;
+}
+
+.lnk{
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;
+	color:white;
+	font size:10px;
+}
+
+.lnk:hover{
+	font-weight: 900;
+}
+
+
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  
+    width: 33.33%;
+ 
+   
+  }
+ }
+
+
+ @media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+  
+    width: 50%;
+    
+   
+  }
+ }
+  
+
+  
+@media (max-width: 767px){
+   .col-sm-12 {
+    float: left;
+    
+    width: 100%;
+    
+  }
+}
+
+
+.row .row1{
+	
+	height:500px;
+}
