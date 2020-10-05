@@ -173,10 +173,16 @@ body{
 @media (max-width: 767px){
    .col-sm-12 {
     float: left;
-    
     width: 100%;
     
   }
+}
+
+@media (max-width: 499px)
+{
+	.tp{
+		font-size: 20px;
+	}
 }
 
 
