@@ -170,7 +170,7 @@ body{
   
 
   
-@media (max-width: 767px){
+@media (max-width: 767px) and (min-width: 500px){
    .col-sm-12 {
     float: left;
     width: 100%;
