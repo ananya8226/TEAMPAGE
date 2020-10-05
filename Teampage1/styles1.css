@@ -204,6 +204,12 @@ body{
   }
 }
 
+@media (max-width: 499px)
+{
+	.tp{
+		font-size: 30px;
+	}
+}
 
 .row .row1{
 	
